@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>方案详情-善悦网络技术有限公司</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/scheme.css" />
+	</head>
+	<body>
+		<div class="scheme">
+			<header class="scheme-title">
+				<!-- 头部导航 -->
+				<div class="header">
+					<nav class="navbar navbar-default">
+						<div class="container-fluid">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+								 aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="index.html">
+									<img src="image/logo.png" alt="善悦网络技术有限公司" class="img-responsive" width="220px" style="margin-top: 0.18rem;">
+								</a>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav">
+									<li><a href="index.html">首页<span class="sr-only">(current)</span></a></li>
+									<li class="active"><a href="schems-list-fire.html">智慧消防</a></li>
+									<li><a href="schems-list-affairs.html">智慧政务</a></li>
+									<li>
+										<a href="project.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button"
+										 aria-haspopup="true" aria-expanded="false">产品中心
+											<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li><a href="project.html">硬件产品</a></li>
+											<li><a href="project.html">软件平台</a></li>
+										</ul>
+
+									</li>
+									<li>
+										<a href="scheme.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button"
+										 aria-haspopup="true" aria-expanded="false">解决方案
+											<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li><a href="scheme.html">智慧消防</a></li>
+											<li><a href="scheme.html">智慧政务</a></li>
+											<li><a href="scheme.html">SDW</a></li>
+										</ul>
+									</li>
+									<li><a href="new.html">新闻公告</a></li>
+									<!-- <li><a href="#">招商加盟</a></li> -->
+									<li><a href="about.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button"
+										 aria-haspopup="true" aria-expanded="false">关于我们
+											<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li><a href="about.html">公司简介</a></li>
+											<li><a href="person.html">人员招聘</a></li>
+											<li><a href="contact.html">联系我们</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div><!-- /.navbar-collapse -->
+						</div><!-- /.container-fluid -->
+					</nav>
+				</div>
+
+			</header>
+			<section class="scheme-banner schems-list-banner">
+				<div class="jumbotron">
+					<h2>行业解决方案</h2>
+					<p>我们提供的不止是数据应用工具</p>
+					<p>更是专属于你的完美数据解决方案，帮助企业积累数据资产</p>
+				</div>
+				<div class="schems-list-tab">
+					<div class="schems-list-tab-list">
+						<span><a href="#schems-list1">系统概述</a></span>
+						<span><a href="#schems-list2">系统架构</a></span>
+						<span><a href="#schems-list3">核心功能</a></span>
+						<span><a href="#schems-list4">平台优势</a></span>
+						<span><a href="#schems-list5">应用场景</a></span>
+					</div>
+				</div>
+			</section>
+			<section class="schems-list-info" style="margin-bottom: 0.5rem;">
+				<div class="container">
+					<div class="schems-list-info-group">
+						<h3 id="schems-list1">系统概述</h3>
+						<div>
+							<div class="col-xs-12 col-md-6"><img src="image/fire.png" alt=""></div>
+							<div class="col-xs-12 col-md-6" style="font-size: 0.16rem;
+    line-height: 0.28rem;">
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;善悦智慧消防平台依据国家标准规范，结合人防、技防手段，运用互联网、物联网、大数据、云计算、人工智能等先进技术，紧扣火灾隐患的发现、排查、整改、消除，实现基于大数据、一张图的统一管理、一体化指挥、社会消防安全管理、社会消防公众服务，解决社会单位和消防监督部门的消防安全管理痛点，将纷繁的管理工作变得简单易行，将复杂的数据乱象变得清晰明了，给城市的消防安全赋能，全面改善消防安全环境状况，成为智慧城市建设消防安全中的典范。
+								<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;善悦智慧消防平台，融合设备数据采集、数据传输、大数据分析等信息技术于一体，从现场到云端，从云端到移动端、电脑端的高效传输，进行多维度智能检测、分析、报警、反控、维保等安全管理，提供消防安全隐患事前预警、事中报警、事后管理，遏制重特大火灾事故发生的综合解决方案。
+							</div>
+						</div>
+						<div style="margin-top: 1rem;clear: both;height: 10px;"></div>
+						<div class="schems-list-info-group" style="margin-top: 1rem;">
+							<h3 id="schems-list2">系统架构</h3>
+							<div>
+								<div class="col-md-12 col-xs-12" style="font-size: 0.16rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据管控方案通过强有力的组织架构，完善的管理制度及工作流程支撑，规范数据管控各项工作的开展，加强银行的整体数据管理能力，避免因数据质量问题导致生产故障的发生，保障信息系统的稳定运行。引入数据全生命周期管理理念，建立全面的数据治理政策体系，结合元数据、数据标准等开展数据治理工作，有效执行了从数据质量问题发现到问题解决的数据治理流程，通过全面的数据质量检核，保证数据质量考核客观、全面、合理，使数据治理工作能够落到实处，全面提升银行数据运用水平和数据质量。
+								</div>
+								<div class="col-md-6  col-md-offset-3 col-xs-12">
+									<img src="image/xiaosys02.png" alt="">
+								</div>
+								<div class="col-xs-12 col-md-12">
+									<img src="image/xiaosys.png" alt="">
+
+								</div>
+							</div>
+						</div>
+						<div style="margin-top: 1rem;clear: both;height: 10px;"></div>
+						<div class="schems-list-info-group" style="margin-top: 1rem;">
+							<h3 id="schems-list3">核心功能</h3>
+							<div>
+								<div class="col-xs-12 col-md-12" style="font-size: 0.16rem;float: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;社会单位安全隐患巡查方面：智慧消防智能巡防点通过在单位的消防重点部位及消防设施张贴加密的二维码标签并建立身份证标识。手机扫描标签进行每日防火巡查工作，并且系统自动提示各种消防设施及重部位的检查标准和方法，自动记录巡查人员检查痕迹。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重点部位可视化监管方面：智慧消防智能预警摄像头可以对所监控的场景进行不间断分析，对异常事件进行检测、报警和录像。有效捕捉异常报警事件，及时发现威胁，降低误报和漏报现象。提示值班人员关注相关监控画面提前做好准备，防止在混乱中由于人为因素而造成的延误。遇到异常事件需要从海量录像中查找时，可以进行智能筛选，大大缩减查找时间。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;感烟探测方面：智慧消防NB-IoT智慧烟感只需2分钟，就可以手机和
+								<img src="image/maingongn.png" style="width: 4rem;float: left;" class="hidden-xs">火灾探测器的绑定和固定安装。NB-IoT智慧烟感无需布线，采用GSM传输信号，信号强。无需WIFI，适用于多种场所，包括没有信号的地下、半地下场所等。操作简单，适合多种人群，多手机账号绑定和推送报警信息，物联网+安全。电池寿命长达2年之久，有低电量报警功能。日常维护方便。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;建筑消防用水监测方面：智慧消防NB-IoT智慧消防栓实时监测单位室内消火栓、喷淋末端试水最不利点压力以及消防水箱水池的液位实时情况，水压、液位值实时监测，能够第一时间发现消火栓系统、喷淋系统、水池水箱的异常情况、确保消防用水的健康运行，减少建筑消防缺水、少水带来的安全隐患。实现消防用水可视化管理、提高系统管理便捷性，监控中心一旦收到消防用水报警信息，并发出报警声音，同时实时数据和历史趋势曲线展示。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电气安全监测方面：智慧消防通过在单位配电柜中加入前端感知设备(电气火灾监控探测器、电流传感器、温度传感器以及剩余电流传感器)，实时采集电气线路的剩余电流、导线温度和电流参数。通过服务和云计算技术实现对电气安全数据多维度、全角度的科学分析及处理，用户可以在线查看电气安全的历史事件，可以查看周报表。还可以下载、打印这些报表。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;火灾自动报警方面：智慧消防通过用户信息传输装置，将社会单位的消防报警控制柜的各类报警信息实时上传到云服务器，一旦发现紧急情况可以及时安排相关人员到现场处理。处置时需要上传报警解决情况以及现场照片，消防安全管理人通过电脑以及手机可实时查看。避免了管理人员对值守人员操作无法监管的问题。快速解决、排查消防设施故障，降低火灾发生概率;对自动消防设施及工程安装质量进行监督;火灾原因溯源，责任准确定位;准确远程获取故障信息，提高维修效率。</div>
+
+							</div>
+						</div>
+						<div style="margin-top: 1rem;clear: both;height: 10px;"></div>
+						<div class="schems-list-info-group" style="margin-top: 1rem;">
+							<h3 id="schems-list4">平台优势</h3>
+							<div class="col-xs-12 col-md-12" style="margin-bottom: 1rem;">
+								<div class="media col-xs-12 col-md-5">
+									<div class="media-left media-middle">
+										<a href="#" class="schems-list-info-group-img">
+											<img class="media-object" src="image/about.jpg" alt="...">
+										</a>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">智能物联</h4>
+										<p>将消防各个子系统远程连接到智慧消防平台，打破信息孤岛，实现统一管理和监控。</p>
+									</div>
+								</div>
+								<div class="media col-xs-12 col-md-5 col-md-offset-2">
+									<div class="media-left media-middle">
+										<a href="#" class="schems-list-info-group-img">
+											<img class="media-object" src="image/about.jpg" alt="...">
+										</a>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">应用场景化</h4>
+										<p>平台具备场景化特点，且功能简洁、要点清晰，具备较强的易用性；平台和软件还提供多接口服务，方便扩展功能并能够纳入城市建设。</p>
+									</div>
+								</div>
+								<div class="media col-xs-12 col-md-5 ">
+									<div class="media-left media-middle">
+										<a href="#" class="schems-list-info-group-img">
+											<img class="media-object" src="image/about.jpg" alt="...">
+										</a>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">智能提醒</h4>
+										<p>ICT技术融合故障报警信息可以通过语音电话，短信，APP推送方式通知消防管理人员。</p>
+									</div>
+								</div>
+								<div class="media col-xs-12 col-md-5 col-md-offset-2">
+									<div class="media-left media-middle">
+										<a href="#" class="schems-list-info-group-img">
+											<img class="media-object" src="image/about.jpg" alt="...">
+										</a>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">智能联动</h4>
+										<p>远程控制和联动基于多层次管理平台，管理员在确认火警或故障信息时，可触发远程控制和联动，及时消除安全隐患。</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+							<div class="schems-list-info-group schems-list-info-group-custom" style="margin-top: 1rem;">
+								<h3 id="schems-list5" style="margin-bottom: 0.30rem;">应用场景</h3>
+								<div>
+									<div id="carousel-example-generic" class="carousel slide mainCarousel" data-ride="carousel">
+										<!-- Indicators -->
+										<ol class="carousel-indicators hidden-xs">
+											<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+										</ol>
+
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner" role="listbox" ontouchstart='getFlag()' ontouchmove='setFlag()' ontouchend='change()'>
+											<div class="item active">
+												<div class="media col-xs-12 col-md-12">
+													<div class="mediaList">
+														<div class="media-left media-middle">
+															<a href="#" class="schems-list-info-group-img">
+																<img class="media-object" src="image/about.jpg" alt="...">
+															</a>
+														</div>
+														<div class="media-body">
+															<h4 class="media-heading">新乡移动公司</h4>
+															<p>重点监管单位， 九小场所，学校校园，政府机关，工矿企业，住宅出租屋，商业办公，城市综合体</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+			</section>
+
+			<!-- 底部 -->
+			<footer class="scheme-footer">
+				<div class="row container">
+					<div class="scheme-footer-left col-xs-12 col-md-3">
+						<h6>服务方式</h6>
+						<p>联系电话：0370-55279980</p>
+						<p>公司邮箱：sungf@shanyueweb.com</p>
+					</div>
+					<div class="scheme-footer-right hidden-xs col-md-7">
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>智慧消防</h6>
+							<a href="schems-list.html">智慧消防</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>智慧政务</h6>
+							<a href="schems-list.html">智慧政务</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>产品中心</h6>
+							<a href="project.html">硬件产品</a>
+							<a href="project.html">软件平台</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>解决方案</h6>
+							<a href="scheme.html">智慧消防</a>
+							<a href="scheme.html">智慧政务</a>
+							<a href="scheme.html">SDW</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>新闻中心</h6>
+							<a href="new.html">新闻中心</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>关于我们</h6>
+							<a href="about.html">公司简介</a>
+							<a href="person.html">人员招聘</a>
+							<a href="contact.html">联系我们</a>
+						</div>
+					</div>
+					<div class="scheme-footer-look col-xs-12 col-md-1 col-md-offset-1">
+						<h6>关注我们</h6>
+						<img src="image/wxgongzhuhao.jpg" alt="">
+					</div>
+
+				</div>
+				<div class="scheme-footer-copyright">
+					Copyright © 2019 善悦网络技术有限公司 All rights reserved <a href="http://www.miibeian.gov.cn/" style="color: #fff;text-decoration: none;">
+						豫ICP备19017959号
+					</a>
+				</div>
+			</footer>
+
+		</div>
+		</div>
+	</body>
+	<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://cdn.bootcss.com/bootstrap-hover-dropdown/2.0.10/bootstrap-hover-dropdown.min.js"></script>
+	<script src="js/scheme.js" type="text/javascript" charset="utf-8"></script>
+</html>

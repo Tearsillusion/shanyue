@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>善悦官网</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="css/guan.css" />
+	</head>
+	<body>
+		<!-- 头部导航 -->
+		<div class="header" id="headerNav">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+						 aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">
+							<img src="image/logo.png" alt="善悦网络技术有限公司" class="img-responsive" width="220px" style="margin-top: 0.18rem;">
+						</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html">首页<span class="sr-only">(current)</span></a></li>
+							<li><a href="schems-list.html">智慧消防</a></li>
+							<li><a href="schems-list.html">智慧政务</a></li>
+							<li>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">产品中心
+									<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="project.html">硬件产品</a></li>
+									<li><a href="project.html">软件平台</a></li>
+								</ul>
+
+							</li>
+							<li>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">解决方案
+									<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="scheme.html">智慧消防</a></li>
+									<li><a href="scheme.html">智慧政务</a></li>
+									<li><a href="scheme.html">SDW</a></li>
+								</ul>
+							</li>
+							<li><a href="new.html">新闻公告</a></li>
+							<!-- <li><a href="#">招商加盟</a></li> -->
+							<li>
+								<a href="about.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button"
+								 aria-haspopup="true" aria-expanded="false">关于我们
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="about.html">公司简介</a></li>
+									<li><a href="person.html">人员招聘</a></li>
+									<li><a href="contact.html">联系我们</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</div>
+
+		<!-- 轮播-->
+		<div id="carousel-example-generic" class="carousel slide mainCarousel" data-ride="carousel" data-interval="10000">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox" ontouchstart='getFlag()' ontouchmove='setFlag()' ontouchend='change()'>
+				<div class="item active">
+					<img src="image/indexBanner.png" alt="善悦消防">
+					<!-- <video src="audio/zhixiao.mp4" autoplay="autoplay" loop="loop" width="100%">
+						当前浏览器不支持video
+					</video> -->
+					<div class="carousel-caption">
+						<h3>您身边的防火卫士</h3>
+						<h1>善悦消防，防火最强</h1>
+						<p>覆盖河南多个城市</p>
+						<p>的智慧平台,大数据支撑为您的 家庭保驾护航</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="image/indexBanner.png" alt="智慧政务">
+					<div class="carousel-caption">
+						<h3>您身边的防火卫士</h3>
+						<h1>善悦消防，防火最强</h1>
+						<p>覆盖河南多个城市</p>
+						<p>的智慧平台,大数据支撑为您的 家庭保驾护航</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<!-- 产品对比 -->
+		<div class="product">
+			<!-- 查看更多产品 -->
+			<div class="productTitle">
+				<h5>产品中心</h5>
+				<p>丰富的产品类型,给你一站式的防火产品供应</p>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 product_left">
+					<div class="col-lg-12 col-md-12 col-sm-12 product-PicBig col-xs-12 product_left_top">
+						<a href="project.html">
+							<h6>
+								<img src="image/dahua.png">
+							</h6>
+							<div class="product_pic">
+								<img src="image/product01.png" class="img-responsive">
+							</div>
+							<div class="product_intro">
+								大华400万H265电动变焦防暴网络监控摄像头
+								DH-IPC-HDBW4433R-ZS
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 product-PicSmall col-sm-6 col-xs-6 product_left_bottom">
+						<a href="project.html">
+							<div class="product_pic">
+								<img src="image/product02.png" class="img-responsive imgSize">
+							</div>
+							<div class="product_intro">
+								大华400万H265电动变焦防暴网络监控摄像头
+								DH-IPC-HDBW4433R-ZS
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 product-PicSmall col-sm-6 col-xs-6 product_left_bottom">
+						<a href="project.html">
+							<div class="product_pic">
+								<img src="image/product07.png" class="img-responsive imgSize">
+							</div>
+							<div class="product_intro">
+								大华400万H265电动变焦防暴网络监控摄像头
+								DH-IPC-HDBW4433R-ZS
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-sm-12 product_right pro_middle visible-sm-* visible-md-* visible-lg-* hidden-xs">
+					<h6>
+						<img src="image/dahua.png">
+					</h6>
+					<div class="col-lg-6 col-md-6 col-sm-6 product-PicSmall col-sm-6 col-xs-6 product_left_bottom">
+						<a href="project.html">
+							<div class="product_pic">
+								<img src="image/product04.png" class="img-responsive imgSize">
+							</div>
+							<div class="product_intro">
+								大华400万H265电动变焦防暴网络监控摄像头
+								DH-IPC-HDBW4433R-ZS
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 product-PicSmall col-sm-6 col-xs-6 product_left_bottom">
+						<a href="project.html">
+							<div class="product_pic">
+								<img src="image/product05.png" class="img-responsive imgSize">
+							</div>
+							<div class="product_intro">
+								大华400万H265电动变焦防暴网络监控摄像头
+								DH-IPC-HDBW4433R-ZS
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 product-PicSmall col-sm-6 col-xs-6 product_left_bottom">
+						<a href="project.html">
+							<div class="product_pic">
+								<img src="image/product03.png" class="img-responsive imgSize">
+							</div>
+							<div class="product_intro">
+								大华400万H265电动变焦防暴网络监控摄像头
+								DH-IPC-HDBW4433R-ZS
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 product-PicSmall col-sm-6 col-xs-6 product_left_bottom">
+						<a href="##">
+							<div class="product_pic">
+								<img src="image/product08.png" class="img-responsive imgSize">
+							</div>
+							<div class="product_intro">
+								大华400万H265电动变焦防暴网络监控摄像头
+								DH-IPC-HDBW4433R-ZS
+							</div>
+						</a>
+					</div>
+
+
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-sm-12 product_right">
+					<div class="bg visible-sm-* visible-md-* visible-lg-* hidden-xs">
+						<img src="image/morebig.png" class="img-responsive">
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 product-PicBig col-xs-12 more_pro more_pro_left">
+						<div class="pro_More_Cont">
+							<img src="image/more_01.png">
+							<h6>善悦消防平台</h6>
+							<p>大数据监测,防火更智能</p>
+							<a href="##">
+								了解更多
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 product-PicBig col-xs-12 more_pro more_pro_right">
+						<div class="pro_More_Cont">
+							<img src="image/more_02.png">
+							<h6>善悦消防平台</h6>
+							<p>大数据监测,防火更智能</p>
+							<a href="##">
+								了解更多
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 点击去到更多产品 -->
+			<p class="routeProct">
+				<a href="##">
+					更多产品
+					<img src="image/chakanxiangqing.png">
+				</a>
+			</p>
+		</div>
+		<!-- 解决方案 -->
+		<div class="resolve  hidden-xs">
+			<div class="resolveTitle">
+				<h5>解决方案</h5>
+				<p>全方位的解决方案,满足不同行业的各种苛刻需求</p>
+			</div>
+			<div class="section-wrapper">
+				<div class="plan-content">
+					<div class="plan-container">
+						<div class="plan-wrapper">
+							<div class="plan-slide plan-slide1 show1">
+								<div class="plan-card-bg">
+									<img src="image/resolve02.png" alt="智慧政务" title="智慧政务">
+								</div>
+								<div class="plan-card-collapse">
+									<div class="plan-card-collapse-inner">
+										<div class="xsytb1 tb3">
+											<img src="image/resolvezheng.png" class="img-responsive">
+										</div>
+										<i></i>
+										<h2 class="h2">智慧政务</h2>
+									</div>
+								</div>
+								<div class="plan-card-open">
+									<div class="plan-card-open-inner">
+										<h2 class="h1">智慧政务</h2>
+										<p>全面管控政务数据资产，从监管报送、数据存储、数据模型、数据治理到数据应用，实现覆盖政务全行业范围的全生命周期管控</p>
+										<div class="plan-recommend">
+											<h2 class="h2">推荐解决方案</h2>
+											<ul>
+												<li><a href="scheme.html">政务报表管理</a></li>
+												<li><a href="scheme.html">智能监管报送</a></li>
+												<li><a href="scheme.html">政务管理驾驶舱</a></li>
+												<li><a href="scheme.html">政务资产监督管控</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="plan-slide plan-slide1 show1 open">
+								<div class="plan-card-bg">
+									<img src="image/resolve04.png" alt="智慧消防" title="智慧消防">
+								</div>
+								<div class="plan-card-collapse" style="opacity: 0;">
+									<div class="plan-card-collapse-inner">
+										<div class="xsytb1 tb3">
+											<img src="image/resolvexiao.png" class="img-responsive">
+										</div>
+										<i></i>
+										<h2 class="h2">智慧消防</h2>
+									</div>
+								</div>
+								<div class="plan-card-open" style="opacity: 1;">
+									<div class="plan-card-open-inner">
+										<h2 class="h1">智慧消防</h2>
+										<p>用国际领先的物联网技术,简历智慧消防平台,为各行业提供防火预防服务,打造智慧消防安全物联网生态体系</p>
+										<div class="plan-recommend">
+											<h2 class="h2">推荐解决方案</h2>
+											<ul>
+												<li><a href="scheme.html">善悦消防平台</a></li>
+												<li><a href="scheme.html">善悦消防平台</a></li>
+												<li><a href="scheme.html">善悦消防平台</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="plan-slide plan-slide1 show1">
+								<div class="plan-card-bg">
+									<img src="image/resolve05.png" alt="云助手" title="云助手">
+								</div>
+								<div class="plan-card-collapse">
+									<div class="plan-card-collapse-inner">
+										<div class="xsytb1 tb3">
+											<img src="image/resolveyun.png" class="img-responsive">
+										</div>
+										<i></i>
+										<h2 class="h2">云助手</h2>
+									</div>
+								</div>
+								<div class="plan-card-open">
+									<div class="plan-card-open-inner">
+										<h2 class="h1">云助手</h2>
+										<p>全面管控云助手数据资产，从监管报送、数据存储、数据模型、数据治理到数据应用，实现覆盖云助手全行业范围的全生命周期管控</p>
+										<div class="plan-recommend">
+											<h2 class="h2">推荐解决方案</h2>
+											<ul>
+												<li><a href="scheme.html">云助手报表管理</a></li>
+												<li><a href="scheme.html">智能监管报送</a></li>
+												<li><a href="scheme.html">云助手管理驾驶舱</a></li>
+												<li><a href="scheme.html">云助手资产监督管控</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="plan-slide plan-slide1 show1">
+								<div class="plan-card-bg">
+									<img src="image/resolve01.png" alt="云通知" title="云通知">
+								</div>
+								<div class="plan-card-collapse">
+									<div class="plan-card-collapse-inner">
+										<div class="xsytb1 tb3">
+											<img src="image/resolvetong.png" class="img-responsive">
+										</div>
+										<i></i>
+										<h2 class="h2">云通知</h2>
+									</div>
+								</div>
+								<div class="plan-card-open">
+									<div class="plan-card-open-inner">
+										<h2 class="h1">云通知</h2>
+										<p>全面管控云通知数据资产，从监管报送、数据存储、数据模型、数据治理到数据应用，实现覆盖云通知全行业范围的全生命周期管控</p>
+										<div class="plan-recommend">
+											<h2 class="h2">推荐解决方案</h2>
+											<ul>
+												<li><a href="scheme.html">云通知报表管理</a></li>
+												<li><a href="scheme.html">智能监管报送</a></li>
+												<li><a href="scheme.html">云通知管理驾驶舱</a></li>
+												<li><a href="scheme.html">云通知资产监督管控</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 点击去到更多解决方案 -->
+			<p class="routeProct">
+				<a href="##">
+					查看更多
+					<img src="image/chakangengduo.png">
+				</a>
+			</p>
+		</div>
+		<!-- 解决方案手机端 -->
+		<div class="visible-xs mobileSwiper">
+			<div class="mobileresolveTitle">
+				<h5>解决方案</h5>
+				<p>全方位的解决方案,满足不同行业的各种苛刻需求</p>
+			</div>
+			<!-- 手动轮播 -->
+			<div class="hander_lunbo header_nav_hide">
+				<section class="pc-banner">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide swiper-slide-center none-effect ">
+								<a href="##">
+									<img src="image/resolve02.png" class="img-responsive">
+									<h4>智慧政务</h4>
+									<span>Smart govemment</span>
+								</a>
+							</div>
+							<div class="swiper-slide ">
+								<a href="##">
+									<img src="image/resolve04.png">
+									<h4>智慧消防</h4>
+									<span>Smart fire control</span>
+								</a>
+							</div>
+							<div class="swiper-slide ">
+								<a href="##">
+									<img src="image/resolve05.png">
+									<h4>云助手</h4>
+									<span>Smart cabinet</span>
+								</a>
+							</div>
+							<div class="swiper-slide ">
+								<a href="##">
+									<img src="image/resolve01.png">
+									<h4>云通知</h4>
+									<span>Smart manager</span>
+								</a>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+		</div>
+		<!-- 新闻资讯 -->
+		<div class="new">
+			<!-- 新闻资讯标题 -->
+			<div class="productTitle">
+				<h5>咨询洞察</h5>
+				<p>全方位的解决方案,满足不同行业的各种苛刻需求</p>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 paddingLeftNone paddingRightNone">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingLeftNone">
+						<div class="newbg">
+							<img src="image/newBig.png" class="img-responsive">
+						</div>
+						<div class="newMainIntro">
+							<div class="newsamllTime">
+								2019-06-12
+							</div>
+							<p class="xs_fontSize">善悦网络与新乡市政府达成战略合作协议</p>
+							<span>本着“发挥优势、相互促进、长期合作、互利互赢”的原则推进战略合作，努力扩大
+双方的深度和广度，提高双方经济效益，实现互利互赢。</span>
+						</div>
+						<div class="moreNew">
+							<a href="new.html">
+								查看详情
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 paddingLeftNone">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " style="margin-bottom: 0.28rem;">
+						<a href="new.html">
+							<div class="newbg">
+								<img src="image/newrighttop.png" class="img-responsive">
+							</div>
+							<div class="newRightTopIntro">
+								<div class="newsamllTime">
+									2019-06-12
+								</div>
+								<p class="xs_fontSize">5G商用时代到来</p>
+								<span>把握时代脉搏，快速占领风口</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<a href="new.html">
+							<div class="newbg">
+								<img src="image/rebbg.png" class="img-responsive">
+							</div>
+							<div class="newIntro">
+								<div class="newsamllTime">
+									2019-06-12
+								</div>
+								<p class="xs_fontSize">5G牌照发放 垂直行业为何跟着沸腾？</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<a href="new.html">
+							<div class="newbg">
+								<img src="image/newrightbot.png" class="img-responsive">
+							</div>
+							<div class="newIntro blackFont">
+								<div class="newsamllTime">
+									2019-06-12
+								</div>
+								<p class="xs_fontSize">5G商用将给各行业带来深刻变革！善悦时刻准备着~</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- 底部 -->
+		<footer class="scheme-footer">
+			<div class="row container">
+				<div class="scheme-footer-left col-xs-12 col-md-3">
+					<h6>服务方式</h6>
+					<p>联系电话：0370:123456789</p>
+					<p>公司邮箱：0370:123456789</p>
+				</div>
+				<div class="scheme-footer-right hidden-xs col-md-7">
+					<div class="scheme-footer-right-list col-md-2">
+						<h6>智慧消防</h6>
+						<a href="schems-list.html">智慧消防</a>
+					</div>
+					<div class="scheme-footer-right-list col-md-2">
+						<h6>智慧政务</h6>
+						<a href="schems-list.html">智慧政务</a>
+					</div>
+					<div class="scheme-footer-right-list col-md-2">
+						<h6>产品中心</h6>
+						<a href="project.html">硬件产品</a>
+						<a href="project.html">软件平台</a>
+					</div>
+					<div class="scheme-footer-right-list col-md-2">
+						<h6>解决方案</h6>
+						<a href="scheme.html">智慧消防</a>
+						<a href="scheme.html">智慧政务</a>
+						<a href="scheme.html">SDW</a>
+					</div>
+					<div class="scheme-footer-right-list col-md-2">
+						<h6>新闻中心</h6>
+						<a href="new.html">新闻中心</a>
+					</div>
+					<div class="scheme-footer-right-list col-md-2">
+						<h6>关于我们</h6>
+						<a href="about.html">公司简介</a>
+						<a href="person.html">人员招聘</a>
+						<a href="contact.html">联系我们</a>
+					</div>
+				</div>
+				<div class="scheme-footer-look col-xs-12 col-md-1 col-md-offset-1">
+					<h6>关注我们</h6>
+					<img src="image/wxgongzhuhao.jpg" alt="">
+				</div>
+
+			</div>
+			<div class="scheme-footer-copyright">
+				Copyright © 2019 善悦网络技术有限公司 All rights reserved <a href="http://www.miibeian.gov.cn/" style="color: #fff;text-decoration: none;">
+					豫ICP备19017959号
+				</a>
+			</div>
+		</footer>
+
+		<!-- 侧边联系我们 -->
+		<div class="callme">
+			<div class="top">
+				<div class="topIcon">
+					<img src="image/renIcon01.png" class="img-responsive">
+				</div>
+				<div class="topCall">
+					<p>咨询·反馈</p>
+				</div>
+			</div>
+			<div class="backTop">
+				<a href="#headerNav">
+					<img src="image/backtop02.png" class="img-responsive">
+				</a>
+			</div>
+		</div>
+		<!-- 联系方式 -->
+		<div class="callPhone">
+			400 6951022
+		</div>
+	</body>
+	<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://cdn.bootcss.com/bootstrap-hover-dropdown/2.0.10/bootstrap-hover-dropdown.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/guan.js"></script>
+	<script>
+		window.onload = function() {
+			// e.preventDefault()
+			var swiper = new Swiper('.swiper-container', {
+				autoplay: false,
+				speed: 1000,
+				autoplayDisableOnInteraction: false,
+				loop: true,
+				centeredSlides: true,
+				slidesPerView: 1.15,
+				pagination: '.swiper-pagination',
+				paginationClickable: true,
+			})
+		}
+	</script>
+</html>

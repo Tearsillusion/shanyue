@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>关于我们-善悦网络技术有限公司</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/scheme.css" />
+	</head>
+	<body>
+		<div class="scheme">
+			<header class="scheme-title">
+				<!-- 头部导航 -->
+				<div class="header">
+					<nav class="navbar navbar-default">
+						<div class="container-fluid">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+								 aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="index.html">
+									<img src="image/logo.png" alt="善悦网络技术有限公司" class="img-responsive" width="220px" style="margin-top: 0.18rem;">
+								</a>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav">
+									<li><a href="index.html">首页<span class="sr-only">(current)</span></a></li>
+									<li><a href="schems-list-fire.html">智慧消防</a></li>
+									<li><a href="schems-list-affairs.html">智慧政务</a></li>
+									<li><a href="project.html">产品中心</a></li>
+									<li><a href="scheme.html">解决方案</a></li>
+									<li><a href="new.html">新闻公告</a></li>
+									<li><a href="joinus.html">招商加盟</a></li>
+									<li class="active"><a href="about.html">关于我们</a></li>
+								</ul>
+							</div><!-- /.navbar-collapse -->
+						</div><!-- /.container-fluid -->
+					</nav>
+				</div>
+
+			</header>
+			<section class="scheme-banner about-banner">
+				<div class="jumbotron">
+					<h2>善悦网络科技有限公司</h2>
+				</div>
+			</section>
+			<section class="about-info" id="headerNav">
+				<div class="container" style="display: flex;justify-content: space-between;">
+					<span class="col-xs-12">
+						<a href="#compony">
+							<h3>公司简介</h3>
+							<p>善悦网络技术有限公司</p>
+						</a>
+					</span>
+					<span class="col-xs-12">
+						<a href="#hore">
+							<h3>荣誉资质</h3>
+							<p>荣誉的桂冠是用荆棘编织而成的</p>
+						</a>
+					</span>
+					<span class="col-xs-12">
+						<a href="#power">
+							<h3>知识产权</h3>
+							<p>阳光照亮世界，知识照亮人生</p>
+						</a>
+					</span>
+					<span class="col-xs-12">
+						<a href="#person">
+							<h3>人才招聘</h3>
+							<p>我们期待你的到来</p>
+						</a>
+					</span>
+					<span class="col-xs-12">
+						<a href="#contact">
+							<h3>联系我们</h3>
+							<p>0371-55279980</p>
+						</a>
+					</span>
+				</div>
+			</section>
+			<section class="scheme-banner about-list-info">
+				<div class="container">
+					<div>
+						<h2 id="compony" style="text-align: center;margin-bottom: 0.5rem;">公司简介</h2>
+					</div>
+					<div class="col-xs-12 col-md-6 about-list-right">
+						<img src="image/wallpaper11.png" alt="">
+					</div>
+					<div class="col-xs-12 col-md-6 about-list-left">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;善悦网络技术有限公司注册资金5000万元，是经国家工商总局审核成立，以国家“863”计划重大科研成果为基础组建的公司，以基础数据技术为核心支撑，从事物联网、云计算、AI人工智能、城市级大数据研究、应用、开发的高新技术企业。<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;公司拥有领先的技术团队构建的专家智库，下辖一支实力过硬，团结高效的技术研发团队。主要技术来源于武汉理工大学，并与武汉理工大学共建智慧大数据研究中心，由光纤传感技术国家工程实验室领军人物姜德生院士和美国战略科学家徐立达教授担任学术指导。<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;公司立足过去，放眼未来，凭借研发型团队的优势，基于云计算、大数据、人工智能等算法技术，构建了千人千面、善悦云、大数据中心、智慧政务系统、智慧消防平台、智慧物联网应用平台等SAAS应用平台的建设。
+					</div>
+
+				</div>
+			</section>
+			<section class="about-compony">
+				<div class="container">
+					<div>
+						<h2 id="hore">荣誉资质</h2>
+					</div>
+					<div class="about-compony-list">
+						<div class="row">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/z1.png" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/z2.jpg" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/z3.png" alt="...">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about-compony">
+				<div class="container">
+					<div>
+						<h2 id="power">知识产权</h2>
+					</div>
+					<div class="about-compony-list">
+						<div class="row">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/1.jpg" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/2.jpg" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/3.jpg" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/4.jpg" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/5.jpg" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/6.jpg" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/7.jpg" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/8.jpg" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/9.jpg" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/10.jpg" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/11.jpg" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/12.jpg" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/13.jpg" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/14.jpg" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/15.jpg" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/16.png" alt="...">
+									</a>
+								</div>
+								<div class="col-xs-6 col-md-4">
+									<a href="#" class="thumbnail">
+										<img src="image/17.jpg" alt="...">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about-compony">
+				<div class="container">
+					<div>
+						<h2 id="person">人才招聘</h2>
+					</div>
+					<div class="about-compony-list">
+						<div class="col-xs-12 col-md-6">
+							<div class="panel panel-default">
+								<!-- Default panel contents -->
+								<div class="panel-heading"><span class="glyphicon glyphicon-user"></span> java高级工程师 （1人）<code style="float: right;">发布时间：2019:06:12</code></div>
+								<div class="panel-body">
+									<h5>岗位职责：</h5>
+									<p>1、负责前台电话接听、转接及答复工作</p>
+									<p>2、负责办公快递的收发、登记、月底对账及申请付款工作</p>
+									<p>3、负责对公司外来访客的接待工作，安排洽谈、讲解、食宿、行程等；</p>
+									<p>4、协助筹、组织、安排公司各项会议、集体活动工作，保证各项活动顺利进行；</p>
+									<h5>技能要求：</h5>
+									<p>1、大学本科及以上学历，电子信息工程及相关专业，</p>
+									<p>2、掌握软件产品的设计理论和方法， </p>
+								</div>
+								<a href="person.html" target="_blank" class="person-aplay">查看详情</a>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<div class="panel panel-default">
+								<!-- Default panel contents -->
+								<div class="panel-heading"><span class="glyphicon glyphicon-user"></span> java高级工程师 （1人）<code style="float: right;">发布时间：2019:06:12</code></div>
+								<div class="panel-body">
+									<h5>岗位职责：</h5>
+									<p>1、负责前台电话接听、转接及答复工作</p>
+									<p>2、负责办公快递的收发、登记、月底对账及申请付款工作</p>
+									<p>3、负责对公司外来访客的接待工作，安排洽谈、讲解、食宿、行程等；</p>
+									<p>4、协助筹、组织、安排公司各项会议、集体活动工作，保证各项活动顺利进行；</p>
+									<h5>技能要求：</h5>
+									<p>1、大学本科及以上学历，电子信息工程及相关专业，</p>
+									<p>2、掌握软件产品的设计理论和方法， </p>
+								</div>
+								<a href="person.html" target="_blank" class="person-aplay">查看详情</a>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<div class="panel panel-default">
+								<!-- Default panel contents -->
+								<div class="panel-heading"><span class="glyphicon glyphicon-user"></span> java高级工程师 （1人）<code style="float: right;">发布时间：2019:06:12</code></div>
+								<div class="panel-body">
+									<h5>岗位职责：</h5>
+									<p>1、负责前台电话接听、转接及答复工作</p>
+									<p>2、负责办公快递的收发、登记、月底对账及申请付款工作</p>
+									<p>3、负责对公司外来访客的接待工作，安排洽谈、讲解、食宿、行程等；</p>
+									<p>4、协助筹、组织、安排公司各项会议、集体活动工作，保证各项活动顺利进行；</p>
+									<h5>技能要求：</h5>
+									<p>1、大学本科及以上学历，电子信息工程及相关专业，</p>
+									<p>2、掌握软件产品的设计理论和方法， </p>
+								</div>
+								<a href="person.html" target="_blank" class="person-aplay">查看详情</a>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<div class="panel panel-default">
+								<!-- Default panel contents -->
+								<div class="panel-heading"><span class="glyphicon glyphicon-user"></span> java高级工程师 （1人）<code style="float: right;">发布时间：2019:06:12</code></div>
+								<div class="panel-body">
+									<h5>岗位职责：</h5>
+									<p>1、负责前台电话接听、转接及答复工作</p>
+									<p>2、负责办公快递的收发、登记、月底对账及申请付款工作</p>
+									<p>3、负责对公司外来访客的接待工作，安排洽谈、讲解、食宿、行程等；</p>
+									<p>4、协助筹、组织、安排公司各项会议、集体活动工作，保证各项活动顺利进行；</p>
+									<h5>技能要求：</h5>
+									<p>1、大学本科及以上学历，电子信息工程及相关专业，</p>
+									<p>2、掌握软件产品的设计理论和方法， </p>
+								</div>
+								<a href="person.html" target="_blank" class="person-aplay">查看详情</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about-compony">
+				<div class="container">
+					<div>
+						<h2 id="contact">联系我们</h2>
+					</div>
+					<div class="about-compony-list">
+						<div class="col-xs-12 col-md-6">
+							<p style="font-size: 0.25rem; font-weight: bold;">善悦网络技术有限公司</p>
+							<p style="font-weight: bold;">联系方式：0371-55279980</p>
+							<p style="font-weight: bold;">公司邮箱：sungf@shanyueweb.com</p>
+							<p style="font-weight: bold;">公司地址：：河南运营中心-郑州市中兴南路河南商会大厦25F</p>
+							<img src="image/wxgongzhuhao.jpg" style="width: 30%;margin-left: -0.1rem;">
+						</div>
+						<div class="col-xs-12 col-md-6 contact-list-right">
+							<img src="image/contact2.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- 底部 -->
+			<footer class="scheme-footer">
+				<div class="row container">
+					<div class="scheme-footer-left col-xs-12 col-md-3">
+						<h6>服务方式</h6>
+						<p>联系电话：0370-55279980</p>
+						<p>公司邮箱：sungf@shanyueweb.com</p>
+					</div>
+					<div class="scheme-footer-right hidden-xs col-md-7">
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>智慧消防</h6>
+							<a href="schems-list.html">智慧消防</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>智慧政务</h6>
+							<a href="schems-list.html">智慧政务</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>产品中心</h6>
+							<a href="project.html">硬件产品</a>
+							<a href="project.html">软件平台</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>解决方案</h6>
+							<a href="scheme.html">智慧消防</a>
+							<a href="scheme.html">智慧政务</a>
+							<a href="scheme.html">SDW</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>新闻中心</h6>
+							<a href="new.html">新闻中心</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>关于我们</h6>
+							<a href="about.html">关于我们</a>
+						</div>
+					</div>
+					<div class="scheme-footer-look col-xs-12 col-md-1 col-md-offset-1">
+						<h6>关注我们</h6>
+						<img src="image/wxgongzhuhao.jpg" alt="">
+					</div>
+
+				</div>
+				<div class="scheme-footer-copyright">
+					Copyright © 2019 善悦网络技术有限公司 All rights reserved <a href="http://www.miibeian.gov.cn/" style="color: #fff;text-decoration: none;">
+						豫ICP备19017959号
+					</a>
+				</div>
+			</footer>
+
+		</div>
+		<!-- 侧边联系我们 -->
+		<div class="callme">
+			<div class="top">
+				<div class="topIcon">
+					<img src="image/renIcon01.png" class="img-responsive">
+				</div>
+				<div class="topCall">
+					<p>咨询·反馈</p>
+				</div>
+			</div>
+			<div class="backTop">
+				<a href="#headerNav">
+					<img src="image/backtop02.png" class="img-responsive">
+				</a>
+			</div>
+		</div>
+		<!-- 联系方式 -->
+		<div class="callPhone">
+			0370-55279980
+		</div>
+		</div>
+	</body>
+	<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://cdn.bootcss.com/bootstrap-hover-dropdown/2.0.10/bootstrap-hover-dropdown.min.js"></script>
+	<script src="js/scheme.js" type="text/javascript" charset="utf-8"></script>
+</html>

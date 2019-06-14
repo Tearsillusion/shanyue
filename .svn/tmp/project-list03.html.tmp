@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>产品详情-善悦网络技术有限公司</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/scheme.css" />
+	</head>
+	<body>
+		<div class="scheme">
+			<header class="scheme-title">
+				<!-- 头部导航 -->
+				<div class="header">
+					<nav class="navbar navbar-default">
+						<div class="container-fluid">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+								 aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="index.html">
+									<img src="image/logo.png" alt="善悦网络技术有限公司" class="img-responsive" width="220px" style="margin-top: 0.18rem;">
+								</a>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav">
+									<li><a href="index.html">首页<span class="sr-only">(current)</span></a></li>
+									<li><a href="schems-list-fire.html">智慧消防</a></li>
+									<li><a href="schems-list-affairs.html">智慧政务</a></li>
+									<li class="active"><a href="project.html">产品中心</a></li>
+									<li><a href="scheme.html">解决方案</a></li>
+									<li><a href="new.html">新闻公告</a></li>
+									<li><a href="joinus.html">招商加盟</a></li>
+									<li><a href="about.html">关于我们</a></li>
+								</ul>
+							</div><!-- /.navbar-collapse -->
+						</div><!-- /.container-fluid -->
+					</nav>
+				</div>
+
+			</header>
+			<section class="scheme-banner">
+				<div class="jumbotron">
+					<h2>产品中心</h2>
+					<p>丰富的产品类型，给你一站式的防火产品供应，产品涵盖相关消防</p>
+					<p>硬件产品消防平台和消防APP，以及相关配套产品</p>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<div class="product-list-title">
+						<div class="col-xs-12 col-md-5 ">
+							<div class="product-list-title-img hidden-xs">
+								<img class="product-list-title-imgTitle" src="">
+								<div class="product-list-title-imgList">
+									<span><img src="image/product07.png" alt="" class="img-responsive"></span>
+								</div>
+							</div>
+
+							<!-- 手机端 -->
+							<div id="carousel-example-generic" class="carousel slide mainCarousel visible-xs-block" data-ride="carousel"
+							 data-interval="10000">
+								<!-- Indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+								</ol>
+
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner" role="listbox" ontouchstart='getFlag()' ontouchmove='setFlag()' ontouchend='change()'>
+									<div class="item active">
+										<img src="image/bg-jieshao.png" alt="善悦消防" class="img-responsive">
+										<!-- <video src="audio/zhixiao.mp4" autoplay="autoplay" loop="loop" width="100%">
+											当前浏览器不支持video
+										</video> -->
+										<div class="carousel-caption">
+										</div>
+									</div>
+									<div class="item">
+										<img src="image/shouyeBG.png" alt="智慧政务" class="img-responsive">
+										<div class="carousel-caption">
+										</div>
+									</div>
+								</div>
+
+								<!-- Controls -->
+								<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-5 col-md-offset-2 product-list-title-info">
+							<h2>NB-IOT(燃气报警器)</h2>
+							<p>NB-IOT燃气报警器是非常重要的燃气安全设备,她是安全使用城市燃气的最后一道保护。消防安全工作刻不容缓,我们需要不断加强消防意识以预防为主,防消结合为工作方针,做好消防安全工作。</p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-12">
+						<div class="product-list-title-infoList">
+							<!-- Nav tabs -->
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">产品概述</a></li>
+								<!-- 								<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">技术参数</a></li>
+								<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">尺寸图</a></li>
+								<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">订货型号</a></li> -->
+							</ul>
+
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div role="tabpanel" class="tab-pane active" id="home">
+									<!-- 支持16路VGA&HDMI输出 -->
+									<!-- <p>支持MPEG2/MPEG4/H.264/MJPEG标准网络视频流解码</p>
+									<p>支持4个800w图像解码输出，12路600w，16个500w，16个300w，8个300w@25fps图像实时解码输出，32个1080P</p>
+									<p>6Mbps图像解码输出，52个720P 4Mbps或者64个720P 3Mbps图像解码输出，64个960H图像解码输出，64个D1图像解码输出</p>
+									<p>支持保存16组预案，并可设置规定时间轮巡</p>
+									<p>支持每个通道任意开窗、漫游，最大图层叠加数16</p>
+									<p>支持真正的全高清显示，支持1920x1080,1280x1024,1280x720,1024x768四种显示分辨率</p>
+									<p>支持主动解码和被动解码两种解码模式</p>
+									<p>支持2×2、2×3、3×2、2×4、4×2、3×3、3×4、4×3、3×5、5×3、4×4融合</p>
+									<p>支持远程录像文件的解码输出</p>
+									<p>,融合屏的3.2的界面更加人性化，操作与windows操作一致</p>
+									<p>支持跨浏览器的WEB3.0，同时对WEB上的配置进行调整</p>
+									<p>将GB28181作为通用界面</p>
+									<p>加强用户的保密等级：HTTP的MD5加密，HTTPS和SSL证书认证，TELNET的密码修改同步应用的用户账号管理</p>
+									<p>支持smartIPC</p>
+									<p>支持解码轮巡；</p>
+									<p>支持底色选择；</p>
+									<p>支持分割线有无选择；</p>
+									<p>支持2个10M/100M/1000M自适应以太网接口</p>
+									<p>采用标准网络协议和标准压缩算法，在各种平台上轻松实现互联互通</p>
+									<p>标准2U机箱</p> -->
+									<img src="image/yangan02.png" class="img-responsive">
+								</div>
+								<div role="tabpanel" class="tab-pane" id="profile">
+									<img src="image/project.png" alt="">
+								</div>
+								<div role="tabpanel" class="tab-pane" id="messages"><img src="image/project3.png" alt=""></div>
+								<div role="tabpanel" class="tab-pane" id="settings">DH-NVS1604DH</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- 底部 -->
+			<footer class="scheme-footer">
+				<div class="row container">
+					<div class="scheme-footer-left col-xs-12 col-md-3">
+						<h6>服务方式</h6>
+						<p>联系电话：0371:55279980</p>
+						<p>公司邮箱：sungf@shanyueweb.com</p>
+					</div>
+					<div class="scheme-footer-right hidden-xs col-md-7">
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>智慧消防</h6>
+							<a href="schems-list.html">智慧消防</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>智慧政务</h6>
+							<a href="schems-list.html">智慧政务</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>产品中心</h6>
+							<a href="project.html">硬件产品</a>
+							<a href="project.html">软件平台</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>解决方案</h6>
+							<a href="scheme.html">智慧消防</a>
+							<a href="scheme.html">智慧政务</a>
+							<a href="scheme.html">SDW</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>新闻中心</h6>
+							<a href="new.html">新闻中心</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>关于我们</h6>
+							<a href="about.html">公司简介</a>
+							<a href="person.html">人员招聘</a>
+							<a href="contact.html">联系我们</a>
+						</div>
+					</div>
+					<div class="scheme-footer-look col-xs-12 col-md-1 col-md-offset-1">
+						<h6>关注我们</h6>
+						<img src="image/wxgongzhuhao.jpg" alt="">
+					</div>
+
+				</div>
+				<div class="scheme-footer-copyright">
+					Copyright © 2019 善悦网络技术有限公司 All rights reserved <a href="http://www.miibeian.gov.cn/" style="color: #fff;text-decoration: none;">
+						豫ICP备19017959号
+					</a>
+				</div>
+			</footer>
+
+		</div>
+		<!-- 侧边联系我们 -->
+		<div class="suspension">
+			<div class="suspension-box">
+				<a href="#" class="a a-service "><i class="i"></i></a>
+				<a href="javascript:;" class="a a-service-phone "><i class="i"></i></a>
+				<a href="javascript:;" class="a a-qrcode"><i class="i"></i></a>
+				<!-- <a href="#" class="a a-cart"><i class="i"></i></a> -->
+				<a href="javascript:;" class="a a-top"><i class="i"></i></a>
+				<div class="d d-service">
+					<i class="arrow"></i>
+					<div class="inner-box">
+						<div class="d-service-item clearfix">
+							<a href="http://wpa.qq.com/msgrd?v=3&uin=1585345738&site=qq&menu=yes" target="_blank" class="clearfix"><span
+								 class="circle"><i class="i-qq"></i></span>
+								<h3>咨询在线客服</h3>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="d d-service-phone">
+					<i class="arrow"></i>
+					<div class="inner-box">
+						<div class="d-service-item clearfix">
+							<span class="circle"><i class="i-tel"></i></span>
+							<div class="text">
+								<p>服务热线</p>
+								<p class="red number">0371-55279980</p>
+							</div>
+						</div>
+						<!-- <div class="d-service-intro clearfix">
+							<p><i></i>功能和特性</p>
+							<p><i></i>价格和优惠</p>
+							<p><i></i>获取内部资料</p>
+						</div> -->
+					</div>
+				</div>
+				<div class="d d-qrcode">
+					<i class="arrow"></i>
+					<div class="inner-box">
+						<div class="qrcode-img"><img style="width: 1rem;height: 1rem;" src="image/side/side_ewm.jpg" alt=""></div>
+						<p>微信服务号</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		</div>
+	</body>
+	<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://cdn.bootcss.com/bootstrap-hover-dropdown/2.0.10/bootstrap-hover-dropdown.min.js"></script>
+	<script src="js/scheme.js" type="text/javascript" charset="utf-8"></script>
+</html>

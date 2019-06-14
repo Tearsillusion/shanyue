@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>方案详情-善悦网络技术有限公司</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/scheme.css" />
+	</head>
+	<body>
+		<div class="scheme">
+			<header class="scheme-title">
+				<!-- 头部导航 -->
+				<div class="header">
+					<nav class="navbar navbar-default">
+						<div class="container-fluid">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+								 aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="index.html">
+									<img src="image/logo.png" alt="善悦网络技术有限公司" class="img-responsive" width="220px" style="margin-top: 0.18rem;">
+								</a>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav">
+									<li><a href="index.html">首页<span class="sr-only">(current)</span></a></li>
+									<li class="active"><a href="schems-list-fire.html">智慧消防</a></li>
+									<li><a href="schems-list-affairs.html">智慧政务</a></li>
+									<li><a href="project.html">产品中心</a></li>
+									<li><a href="scheme.html">解决方案</a></li>
+									<li><a href="new.html">新闻公告</a></li>
+									<li><a href="joinus.html">招商加盟</a></li>
+									<li><a href="about.html">关于我们</a></li>
+								</ul>
+							</div><!-- /.navbar-collapse -->
+						</div><!-- /.container-fluid -->
+					</nav>
+				</div>
+
+			</header>
+			<section class="scheme-banner schems-list-banner">
+				<div class="jumbotron">
+					<h2>智慧消防解决方案</h2>
+					<p>善悦智慧消防平台，为保障城市安全持续奉献</p>
+				</div>
+				<div class="schems-list-tab">
+					<div class="schems-list-tab-list">
+						<span><a href="#schems-list1">系统概述</a></span>
+						<span><a href="#schems-list2">系统架构</a></span>
+						<span><a href="#schems-list3">核心功能</a></span>
+						<span><a href="#schems-list4">平台优势</a></span>
+					</div>
+				</div>
+			</section>
+			<section class="schems-list-info" style="margin-bottom: 0.5rem;">
+				<div class="container">
+					<div class="schems-list-info-group">
+						<h3 id="schems-list1">系统概述</h3>
+						<div>
+							<div class="col-xs-12 col-md-6"><img src="image/fire.png" alt=""></div>
+							<div class="col-xs-12 col-md-6" style="font-size: 0.16rem;
+    line-height: 0.35rem;">
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;善悦智慧消防平台依据国家标准规范，结合人防、技防手段，运用互联网、物联网、大数据、云计算、人工智能等先进技术，紧扣火灾隐患的发现、排查、整改、消除，实现基于大数据、一张图的统一管理、一体化指挥、社会消防安全管理、社会消防公众服务，解决社会单位和消防监督部门的消防安全管理痛点，将纷繁的管理工作变得简单易行，将复杂的数据乱象变得清晰明了，给城市的消防安全赋能，全面改善消防安全环境状况，成为智慧城市建设消防安全中的典范。
+
+							</div>
+						</div>
+						<div style="margin-top: 1rem;clear: both;height: 10px;"></div>
+						<div class="schems-list-info-group" style="margin-top: 1rem;">
+							<h3 id="schems-list2">系统架构</h3>
+							<div>
+								<div class="col-md-12 col-xs-12" style="font-size: 0.16rem;line-height: 0.35rem;">
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;善悦智慧消防平台，融合设备数据采集、数据传输、大数据分析等信息技术于一体，从现场到云端，从云端到移动端、电脑端的高效传输，进行多维度智能检测、分析、报警、反控、维保等安全管理，提供消防安全隐患事前预警、事中报警、事后管理，遏制重特大火灾事故发生的综合解决方案。
+								</div>
+								<div class="col-md-6  col-md-offset-3 col-xs-12">
+									<img src="image/xiaosys02.png" alt="">
+								</div>
+								<div class="col-xs-12 col-md-12">
+									<img src="image/xiaosys.png" alt="">
+
+								</div>
+							</div>
+						</div>
+						<div style="margin-top: 1rem;clear: both;height: 10px;"></div>
+						<div class="schems-list-info-group" style="margin-top: 1rem;">
+							<h3 id="schems-list3">核心功能</h3>
+							<div>
+								<div class="col-xs-12 col-md-12" style="font-size: 0.16rem;float: left;line-height: 0.35rem;">
+									<strong>（1）社会单位安全隐患巡查：</strong>智慧消防智能巡防点通过在单位的消防重点部位及消防设施张贴加密的二维码标签并建立身份证标识。手机扫描标签进行每日防火巡查工作，并且系统自动提示各种消防设施及重部位的检查标准和方法，自动记录巡查人员检查痕迹。<br>
+									<strong>（2）重点部位可视化监管：</strong>智慧消防智能预警摄像头可以对所监控的场景进行不间断分析，对异常事件进行检测、报警和录像。有效捕捉异常报警事件，及时发现威胁，降低误报和漏报现象。提示值班人员关注相关监控画面提前做好准备，防止在混乱中由于人为因素而造成的延误。遇到异常事件需要从海量录像中查找时，可以进行智能筛选，大大缩减查找时间。<br>
+									<strong>（3）感烟探测：</strong>智慧消防NB-IoT智慧烟感只需2分钟，就可以手机和火灾探测器的绑定和固定安装。NB-IoT智慧烟感无需布线，信号强。无需WIFI，适用于多种场所。操作简单，适合多种人群，多手机账号绑定和推送报警信息，物联网+安全。电池寿命长达2年之久。日常维护方便。<br>
+									<strong>（4）建筑消防用水监测：</strong>智慧消防NB-IoT智慧消防栓实时监测单位室内消火栓、喷淋末端试水最不利点压力以及消防水箱水池的液位实时情况，水压、液位值实时监测，能够第一时间发现消火栓系统、喷淋系统、水池水箱的异常情况、确保消防用水的健康运行，减少建筑消防缺水、少水带来的安全隐患。实现消防用水可视化管理、提高系统管理便捷性，监控中心一旦收到消防用水报警信息，并发出报警声音，同时实时数据和历史趋势曲线展示。<br>
+									<strong>（5）电气安全监测：</strong>智慧消防通过在单位配电柜中加入前端感知设备(电气火灾监控探测器、电流传感器、温度传感器以及剩余电流传感器)，实时采集电气线路的剩余电流、导线温度和电流参数。通过服务和云计算技术实现对电气安全数据多维度、全角度的科学分析及处理，用户可以在线查看电气安全的历史事件，可以查看周报表。还可以下载、打印这些报表。<br>
+									<strong>（6）火灾自动报警：</strong>智慧消防通过用户信息传输装置，将社会单位的消防报警控制柜的各类报警信息实时上传到云服务器，一旦发现紧急情况可以及时安排相关人员到现场处理。处置时需要上传报警解决情况以及现场照片，消防安全管理人通过电脑以及手机可实时查看。避免了管理人员对值守人员操作无法监管的问题。快速解决、排查消防设施故障，降低火灾发生概率;对自动消防设施及工程安装质量进行监督;火灾原因溯源，责任准确定位;准确远程获取故障信息，提高维修效率。</div>
+								<img src="image/maingongn.png" style="width: 4rem;margin: 0 auto;display: block;" class="hidden-xs">
+							</div>
+						</div>
+						<div style="margin-top: 1rem;clear: both;height: 10px;"></div>
+						<div class="schems-list-info-group" style="margin-top: 1rem;">
+							<h3 id="schems-list4">平台优势</h3>
+							<div class="col-xs-12 col-md-12" style="margin-bottom: 1rem;">
+								<div class="media col-xs-12 col-md-5">
+									<div class="media-left media-middle">
+										<a href="#" class="schems-list-info-group-img">
+											<img class="media-object" src="image/l1.png" alt="...">
+										</a>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">智能物联</h4>
+										<p>将消防各个子系统远程连接到智慧消防平台，打破信息孤岛，实现统一管理和监控。</p>
+									</div>
+								</div>
+								<div class="media col-xs-12 col-md-5 col-md-offset-2">
+									<div class="media-left media-middle">
+										<a href="#" class="schems-list-info-group-img">
+											<img class="media-object" src="image/l2.png" alt="...">
+										</a>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">应用场景化</h4>
+										<p>平台具备场景化特点，且功能简洁、要点清晰，具备较强的易用性；平台和软件还提供多接口服务，方便扩展功能并能够纳入城市建设。</p>
+									</div>
+								</div>
+								<div class="media col-xs-12 col-md-5 ">
+									<div class="media-left media-middle">
+										<a href="#" class="schems-list-info-group-img">
+											<img class="media-object" src="image/l3.png" alt="...">
+										</a>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">智能提醒</h4>
+										<p>ICT技术融合故障报警信息可以通过语音电话，短信，APP推送方式通知消防管理人员。</p>
+									</div>
+								</div>
+								<div class="media col-xs-12 col-md-5 col-md-offset-2">
+									<div class="media-left media-middle">
+										<a href="#" class="schems-list-info-group-img">
+											<img class="media-object" src="image/l4.png" alt="...">
+										</a>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">智能联动</h4>
+										<p>远程控制和联动基于多层次管理平台，管理员在确认火警或故障信息时，可触发远程控制和联动，及时消除安全隐患。</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+			</section>
+
+			<!-- 底部 -->
+			<footer class="scheme-footer">
+				<div class="row container">
+					<div class="scheme-footer-left col-xs-12 col-md-3">
+						<h6>服务方式</h6>
+						<p>联系电话：0370-55279980</p>
+						<p>公司邮箱：sungf@shanyueweb.com</p>
+					</div>
+					<div class="scheme-footer-right hidden-xs col-md-7">
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>智慧消防</h6>
+							<a href="schems-list.html">智慧消防</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>智慧政务</h6>
+							<a href="schems-list.html">智慧政务</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>产品中心</h6>
+							<a href="project.html">硬件产品</a>
+							<a href="project.html">软件平台</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>解决方案</h6>
+							<a href="scheme.html">智慧消防</a>
+							<a href="scheme.html">智慧政务</a>
+							<a href="scheme.html">SDW</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>新闻中心</h6>
+							<a href="new.html">新闻中心</a>
+						</div>
+						<div class="scheme-footer-right-list col-md-2">
+							<h6>关于我们</h6>
+							<a href="about.html">关于我们</a>
+						</div>
+					</div>
+					<div class="scheme-footer-look col-xs-12 col-md-1 col-md-offset-1">
+						<h6>关注我们</h6>
+						<img src="image/wxgongzhuhao.jpg" alt="">
+					</div>
+
+				</div>
+				<div class="scheme-footer-copyright">
+					Copyright © 2019 善悦网络技术有限公司 All rights reserved <a href="http://www.miibeian.gov.cn/" style="color: #fff;text-decoration: none;">
+						豫ICP备19017959号
+					</a>
+				</div>
+			</footer>
+
+		</div>
+		</div>
+	</body>
+	<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://cdn.bootcss.com/bootstrap-hover-dropdown/2.0.10/bootstrap-hover-dropdown.min.js"></script>
+	<script src="js/scheme.js" type="text/javascript" charset="utf-8"></script>
+</html>
