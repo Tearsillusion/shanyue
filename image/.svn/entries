@@ -1,14 +1,14 @@
 10
 
 dir
-117
+119
 https://win-pj2l9f21ooi/svn/ShanyueWeb/mobileguanwang/compony3.0/image
 https://win-pj2l9f21ooi/svn/ShanyueWeb
 
 
 
-2019-06-14T10:31:26.685658Z
-114
+2019-06-14T12:44:52.385720Z
+118
 lvjl
 
 
@@ -672,40 +672,6 @@ has-props
 
 907212
 
-x2.png
-file
-
-
-
-
-2019-06-14T09:21:34.422623Z
-297da003fbf5840699b5162f330883a2
-2019-06-14T10:31:26.685658Z
-114
-lvjl
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8271
-
 wallpaper11.png
 file
 
@@ -739,6 +705,40 @@ has-props
 
 
 324136
+
+x2.png
+file
+
+
+
+
+2019-06-14T09:21:34.422623Z
+297da003fbf5840699b5162f330883a2
+2019-06-14T10:31:26.685658Z
+114
+lvjl
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8271
 
 iOS.png
 file
@@ -774,40 +774,6 @@ has-props
 
 5845
 
-x4.png
-file
-
-
-
-
-2019-06-14T09:27:04.834232Z
-c0a424f0d140527b63cec695fdcdd125
-2019-06-14T10:31:26.685658Z
-114
-lvjl
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8843
-
 contact.png
 file
 
@@ -841,6 +807,40 @@ has-props
 
 
 82613
+
+x4.png
+file
+
+
+
+
+2019-06-14T09:27:04.834232Z
+c0a424f0d140527b63cec695fdcdd125
+2019-06-14T10:31:26.685658Z
+114
+lvjl
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8843
 
 xiaosys.png
 file
@@ -2171,40 +2171,6 @@ has-props
 
 818931
 
-morebig.png
-file
-
-
-
-
-2019-06-13T01:44:29.183872Z
-53058e222b68cda36e7e75cf7140f059
-2019-06-13T01:44:09.515137Z
-90
-guanjy
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21917
-
 product04.png
 file
 
@@ -2239,16 +2205,16 @@ has-props
 
 99983
 
-indexbannerMobile.png
+morebig.png
 file
 
 
 
 
-2019-06-14T02:36:33.299343Z
-f10a3a1005a3860771faa56d71b8a93c
-2019-06-14T02:27:06.939018Z
-104
+2019-06-13T01:44:29.183872Z
+53058e222b68cda36e7e75cf7140f059
+2019-06-13T01:44:09.515137Z
+90
 guanjy
 has-props
 
@@ -2271,7 +2237,7 @@ has-props
 
 
 
-760462
+21917
 
 small_042x.png
 file
@@ -2307,17 +2273,17 @@ has-props
 
 87859
 
-16.png
+indexbannerMobile.png
 file
 
 
 
 
-2019-06-14T06:38:56.603281Z
-cf529a502207f75205373a78af955af8
-2019-06-14T08:10:59.956458Z
-111
-lvjl
+2019-06-14T02:36:33.299343Z
+f10a3a1005a3860771faa56d71b8a93c
+2019-06-14T02:27:06.939018Z
+104
+guanjy
 has-props
 
 
@@ -2339,7 +2305,7 @@ has-props
 
 
 
-1014825
+760462
 
 banner1.png
 file
@@ -2375,17 +2341,17 @@ has-props
 
 737215
 
-product08.png
+16.png
 file
 
 
 
 
-2019-06-13T10:14:15.755053Z
-a371926d122691df8c531a3bae54197b
-2019-06-13T10:01:46.469978Z
-97
-guanjy
+2019-06-14T06:38:56.603281Z
+cf529a502207f75205373a78af955af8
+2019-06-14T08:10:59.956458Z
+111
+lvjl
 has-props
 
 
@@ -2407,7 +2373,7 @@ has-props
 
 
 
-101927
+1014825
 
 banner3.png
 file
@@ -2442,6 +2408,40 @@ has-props
 
 
 726090
+
+product08.png
+file
+
+
+
+
+2019-06-13T10:14:15.755053Z
+a371926d122691df8c531a3bae54197b
+2019-06-13T10:01:46.469978Z
+97
+guanjy
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+101927
 
 planBtu4.png
 file
@@ -2579,9 +2579,6 @@ has-props
 
 1862
 
-side
-dir
-
 xiaosys02.png
 file
 
@@ -2615,6 +2612,9 @@ has-props
 
 
 89474
+
+side
+dir
 
 anzhuo.png
 file
@@ -2789,40 +2789,6 @@ has-props
 
 26875
 
-l2.png
-file
-
-
-
-
-2019-06-14T06:28:39.593157Z
-b5e61babcf7ad258a7edb6cd63724166
-2019-06-14T08:10:59.956458Z
-111
-lvjl
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9023
-
 small_06.png
 file
 
@@ -2856,6 +2822,40 @@ has-props
 
 
 20181
+
+l2.png
+file
+
+
+
+
+2019-06-14T06:28:39.593157Z
+b5e61babcf7ad258a7edb6cd63724166
+2019-06-14T08:10:59.956458Z
+111
+lvjl
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9023
 
 yangan01.png
 file
@@ -3571,40 +3571,6 @@ has-props
 
 374
 
-xiao.jpg
-file
-
-
-
-
-2019-06-13T08:39:45.299442Z
-2386f51be09a1ab1ade4eb396b1c4d1d
-2019-06-13T10:15:31.898628Z
-99
-lvjl
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-22525
-
 zheng1.png
 file
 
@@ -3638,6 +3604,40 @@ has-props
 
 
 3899530
+
+xiao.jpg
+file
+
+
+
+
+2019-06-13T08:39:45.299442Z
+2386f51be09a1ab1ade4eb396b1c4d1d
+2019-06-13T10:15:31.898628Z
+99
+lvjl
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+22525
 
 zheng3.png
 file
@@ -3673,40 +3673,6 @@ has-props
 
 197188
 
-logo.png
-file
-
-
-
-
-2019-06-11T08:51:34.123865Z
-099b0efede52b4d1f08ea6f31391a013
-2019-06-11T08:51:18.293186Z
-85
-guanjy
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6700
-
 zheng5.png
 file
 
@@ -3740,6 +3706,40 @@ has-props
 
 
 77474
+
+logo.png
+file
+
+
+
+
+2019-06-11T08:51:34.123865Z
+099b0efede52b4d1f08ea6f31391a013
+2019-06-11T08:51:18.293186Z
+85
+guanjy
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6700
 
 pc.png
 file
@@ -3911,40 +3911,6 @@ has-props
 
 716859
 
-backtop01.png
-file
-
-
-
-
-2019-06-13T08:02:04.283037Z
-4ee8bb9e1c4989f0510160eb353a4a69
-2019-06-13T07:59:55.735538Z
-94
-guanjy
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-547
-
 resolve05.png
 file
 
@@ -3978,6 +3944,40 @@ has-props
 
 
 675844
+
+backtop01.png
+file
+
+
+
+
+2019-06-13T08:02:04.283037Z
+4ee8bb9e1c4989f0510160eb353a4a69
+2019-06-13T07:59:55.735538Z
+94
+guanjy
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+547
 
 fire.png
 file
@@ -4081,40 +4081,6 @@ has-props
 
 1810598
 
-z3.png
-file
-
-
-
-
-2019-06-14T06:02:50.861557Z
-55a1204f637bee1e1604e89184b6abf3
-2019-06-14T08:10:59.956458Z
-111
-lvjl
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10247602
-
 1.jpg
 file
 
@@ -4148,6 +4114,40 @@ has-props
 
 
 1974250
+
+z3.png
+file
+
+
+
+
+2019-06-14T06:02:50.861557Z
+55a1204f637bee1e1604e89184b6abf3
+2019-06-14T08:10:59.956458Z
+111
+lvjl
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10247602
 
 renIcon.png
 file
